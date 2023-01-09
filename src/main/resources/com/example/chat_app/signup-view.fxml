@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chat_app.SignupController">
+   <children>
+      <Label layoutX="251.0" layoutY="49.0" prefHeight="33.0" prefWidth="149.0" text="Enter your username">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="username_input" alignment="BOTTOM_LEFT" layoutX="251.0" layoutY="94.0" prefHeight="33.0" prefWidth="149.0" />
+      <Label layoutX="257.0" layoutY="132.0" prefHeight="25.0" prefWidth="137.0" text="Enter your email">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="email_input" layoutX="251.0" layoutY="175.0" prefHeight="33.0" prefWidth="149.0" />
+      <Label layoutX="251.0" layoutY="212.0" prefHeight="25.0" prefWidth="165.0" text="Enter your password">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <PasswordField fx:id="password_input" layoutX="251.0" layoutY="247.0" prefHeight="33.0" prefWidth="149.0" />
+      <Button layoutX="288.0" layoutY="314.0" mnemonicParsing="false" onAction="#Signup" prefHeight="39.0" prefWidth="75.0" style="-fx-background-color: #d82f2f;" text="SignUp" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: rgba(216,47,47,0.69);" text="SignIn">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
